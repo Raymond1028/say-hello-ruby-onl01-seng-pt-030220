@@ -1,3 +1,4 @@
+=begin
 # Say Hello
 
 ## Objectives
@@ -28,3 +29,9 @@ There is one more thing this method should do: if you call on this method and fo
 4. Once all of the tests are passing, use `learn submit` to submit your lab. 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/say-hello-ruby' title='Say Hello'>Say Hello</a> on Learn.co and start learning to code for free.</p>
+=end
+def say_hello ( name = "Hello Ruby Programmer!")
+   puts "Hello #{name}!"
+end
+say_hello("Kent Beck")
+say_hello()
